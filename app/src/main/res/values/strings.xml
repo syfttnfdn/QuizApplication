@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuizApplication</string>
+    <string name="quiz">QUIZ</string>
+    <string name="adding_word">Adding Word</string>
+    <string name="testing">Testing</string>
+    <string name="training">Training</string>
+    <string name="title_activity_result_training">ResultTraining</string>
+    <string name="exit">Exit</string>
+</resources>

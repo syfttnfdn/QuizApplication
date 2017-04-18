@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.seyfettin.quizapplication.FinishTrain"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Training part is Finish!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginBottom="147dp"
+        android:layout_above="@+id/btnQuiz"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:text="Start Quiz"
+        android:textStyle="bold"
+        android:layout_marginBottom="130dp"
+        android:id="@+id/btnQuiz"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnBack"
+        android:layout_toStartOf="@+id/btnBack" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:text="Back to Menu"
+        android:textStyle="bold"
+        android:id="@+id/btnBack"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

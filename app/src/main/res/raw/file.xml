@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<training>
+   <words>
+      <word>bad</word>
+      <meaning>kötü</meaning>
+   </words>
+	
+   <words>
+      <word>new</word>
+      <meaning>yeni</meaning>
+   </words>
+	
+   <words>
+      <word>old</word>
+      <meaning>eski</meaning>
+   </words>
+	
+</training>
